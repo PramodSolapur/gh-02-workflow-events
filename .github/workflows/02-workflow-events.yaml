@@ -1,7 +1,5 @@
 name: 02-Workflow-Events
-on: 
-    schedule:
-        - cron: "*/2 * * * *"
+on: pull_request
 jobs:
     echo:
         runs-on: ubuntu-latest
